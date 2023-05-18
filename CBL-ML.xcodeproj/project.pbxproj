@@ -13,6 +13,7 @@
 		DDFCB0D32A13B5F500EE1BAE /* ReadCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCB0D22A13B5F500EE1BAE /* ReadCSV.swift */; };
 		DDFCB0DB2A13C3C500EE1BAE /* Iris.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDFCB0D72A13BA2700EE1BAE /* Iris.csv */; };
 		DDFCB0DD2A14F86600EE1BAE /* DMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCB0DC2A14F86600EE1BAE /* DMC.swift */; };
+		DDFCB0DF2A169AAE00EE1BAE /* Perceptron.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCB0DE2A169AAE00EE1BAE /* Perceptron.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		DDFCB0D22A13B5F500EE1BAE /* ReadCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadCSV.swift; sourceTree = "<group>"; };
 		DDFCB0D72A13BA2700EE1BAE /* Iris.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Iris.csv; sourceTree = "<group>"; };
 		DDFCB0DC2A14F86600EE1BAE /* DMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMC.swift; sourceTree = "<group>"; };
+		DDFCB0DE2A169AAE00EE1BAE /* Perceptron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perceptron.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				DDFCB0CE2A13B58600EE1BAE /* KNN.swift */,
 				DDFCB0DC2A14F86600EE1BAE /* DMC.swift */,
+				DDFCB0DE2A169AAE00EE1BAE /* Perceptron.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFCB0D32A13B5F500EE1BAE /* ReadCSV.swift in Sources */,
+				DDFCB0DF2A169AAE00EE1BAE /* Perceptron.swift in Sources */,
 				DDFCB0C42A13B4FC00EE1BAE /* main.swift in Sources */,
 				DDFCB0D12A13B5D900EE1BAE /* Iris.swift in Sources */,
 				DDFCB0CF2A13B58600EE1BAE /* KNN.swift in Sources */,

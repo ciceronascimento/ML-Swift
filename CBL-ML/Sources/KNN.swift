@@ -34,8 +34,8 @@ class KNNClassifier {
         let sortedDistances = distances.sorted(by: { $0.1 < $1.1 } )
 
         // Seleciona os k vizinhos mais próximos
-        for i in 0..<k {
-            neighbors.append(sortedDistances[i].0)
+        for iterator in 0..<k {
+            neighbors.append(sortedDistances[iterator].0)
         }
         return neighbors
     }
