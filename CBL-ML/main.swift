@@ -29,5 +29,3 @@ for row in dataSetTeste {
 }
 
 let predictDmc = dmc.predictClassification(data: data, trainingRow: dataSetTeste, k: 4)
-
-//print("KNN: \(predict!)")
