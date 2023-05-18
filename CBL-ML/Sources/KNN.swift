@@ -63,7 +63,6 @@ class KNNClassifier {
         neighbors.removeAll()
         outputValues.removeAll()
         distances.removeAll()
-//        print("Saída sem votação\(outputValues.first.)")
         return prediction
     }
 }
